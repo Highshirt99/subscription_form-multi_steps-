@@ -21,11 +21,7 @@ const persistConfig = {
     storage
 }
 
-// export const store = configureStore({
-//     reducer: {
-//         gameData: gameReducer
-//     }
-// })
+
 
 const persistedReducer = persistReducer(persistConfig, gameReducer)
  
