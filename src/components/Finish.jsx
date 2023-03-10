@@ -22,7 +22,7 @@ function Finish() {
   const totalPrice = selectedPlan[0].price + prices.reduce(getTotalPrice, 0);
 
   return (
-    <div className="flex flex-col gap-[20px] lg:gap-[30px]">
+    <div className="flex flex-col gap-[20px] lg:gap-[35px]">
       <div className="tracking-wide">
         <h1 className="cardH1">Finishing Up</h1>
         <p className="text-coolGray">
