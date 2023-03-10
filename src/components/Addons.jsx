@@ -36,10 +36,10 @@ function Addons() {
     }
   };
   return (
-    <div className="flex flex-col gap-[20px] lg:gap-[20px] ">
+    <div className="flex flex-col gap-[20px] lg:gap-[10px] ">
       <div className="tracking-wide">
         <h1 className="cardH1">Pick Add-ons</h1>
-        <p className="text-coolGray mt-4">
+        <p className="text-coolGray my-4">
           Add-ons help enhance your gaming experience.
         </p>
       </div>

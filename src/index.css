@@ -11,7 +11,7 @@ border-coolGray p-2 tracking-wider rounded-[3px]
     }
 
     .view{
-        @apply lg:w-[70%] lg:h-[85vh] h-auto
+        @apply lg:w-[70%]  h-auto
         lg:my-0 lg:mx-auto lg:bg-White lg:absolute lg:top-1/2 lg:left-1/2 lg:translate-x-[-50%]
         lg:translate-y-[-50%] lg:rounded-[15px] lg:shadow-md flex flex-col lg:flex-row lg:gap-[30px]
     }
